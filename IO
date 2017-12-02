@@ -1,0 +1,11 @@
+#EXTM3U
+#EXTINF:-1,atv
+http://www.canlitvlive.io/live.php?ps=H0acyxzrnIXNZji1jcYp&e=atv
+#EXTINF:-1,show
+http://www.canlitvlive.io/live.php?ps=H0acyxzrnIXNZji1jcYp&e=showtv
+#EXTINF:-1,star
+http://www.canlitvlive.io/live.php?ps=H0acyxzrnIXNZji1jcYp&e=startv
+#EXTINF:-1,tv8
+http://www.canlitvlive.io/live.php?ps=H0acyxzrnIXNZji1jcYp&e=tv8
+#EXTINF:-1,fox
+http://www.canlitvlive.io/live.php?ps=H0acyxzrnIXNZji1jcYp&e=foxtv
