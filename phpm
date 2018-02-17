@@ -1,0 +1,16 @@
+<?php
+$link = "http://www.fox.com.tr/canli-yayin";
+$veri = file_get_contents($link);
+preg_match('#videoSrc : \'(.*?)\'#',$veri,$veritemp);
+
+$botozet = $veritemp[1];
+
+
+$site_carton = file_get_contents("http://www.showtv.com.tr/canli-yayin/showtv");
+preg_match("#(http:\/.*m3u8.*)'#", $site_carton, $soru_carton);
+$dosya_carton="m3u/cartonlive.m3u";
+$soru_icerik_carton=$veritemp[1];
+
+
+header("Location: $soru_icerik_carton");
+?>
